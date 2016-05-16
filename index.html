@@ -19,6 +19,7 @@
 
     <!-- Templates core CSS -->
     <link href="stylesheets/application.css" rel="stylesheet">
+    <!--<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" rel="stylesheet">-->
 
     <!-- Favicons -->
     <link href="images/favicon/favicon.png" rel="shortcut icon">
@@ -53,50 +54,102 @@
 
 
     <!-- Jumbotron -->
-    <header class="jumbotron" role="banner">
+    <div class="homepage-hero-module" role="banner">
+      <div class="video-container">
+        <div class="filter"></div>
+        <video autoplay loop class="animated fadeIn">
+          <source src="iPhone-Scroll/MP4/iPhone-Scroll.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+          <source src="iPhone-Scroll/WEBM/iPhone-Scroll.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+        </video>
+        <div class="poster hidden">
+          <img src="iPhone-Scroll/Snapshots/iPhone-Scroll.jpg" alt="">
+        </div>
+        <div class="jumbotron animated fadeInDown">
+          <div class="container">
+            <div class="row">
 
-      <div class="container">
+              <div class="">
+                <!-- Logo -->
+                <figure class="text-center">
+                  <a href="./index.html">
+                    <img class="img-logo" src="images/appicon.png" alt="">
+                  </a>
+                </figure> <!-- /.text-center -->
 
-        <div class="row">
+                <!-- Title -->
+                <h1 >تطبيق أفـِدْ</h1>
 
-          <div class="col-md-7 pull-right">
+                <!-- Sub title -->
+                <p>هنا نساعد بعضنا البعض، في المذاكرة وحل الواجبات المنزلية.</p>
 
-            <!-- Logo -->
-            <figure class="text-center">
-              <a href="./index.html">
-                <img class="img-logo" src="images/appicon.png" alt="">
-              </a>
-            </figure> <!-- /.text-center -->
+                <!-- Button -->
+                <p class="btn-app-store">
+                  <a class="btn btn-danger btn-lg" href="http://www.alecsoapps.com/site/store/education/500-">
+                    <img src="images/alecso.png" alt="">
+                  </a>
+                </p> <!-- /.btn-app-store -->
 
-            <!-- Title -->
-            <h1>تطبيق أفـِدْ</h1>
+              </div> <!-- /.col-md-7 -->
 
-            <!-- Sub title -->
-            <p>هنا نساعد بعضنا البعض، في المذاكرة وحل الواجبات المنزلية.</p>
+              <!--<div class="col-md-5">-->
 
-            <!-- Button -->
-            <p class="btn-app-store">
-              <a class="btn btn-danger btn-lg" href="http://www.alecsoapps.com/site/store/education/500-">
-                <img src="images/alecso.png" alt="">
-              </a>
-            </p> <!-- /.btn-app-store -->
+                <!--&lt;!&ndash; Images showcase &ndash;&gt;-->
+                <!--<figure>-->
+                  <!--<img class="img-iPhone" src="images/nexus4.png" alt="">-->
+                <!--</figure>-->
 
-          </div> <!-- /.col-md-7 -->
+              <!--</div> &lt;!&ndash; /.col-md-5 &ndash;&gt;-->
 
-          <div class="col-md-5">
+            </div> <!-- /.row -->
 
-            <!-- Images showcase -->
-            <figure>
-              <img class="img-iPhone" src="images/nexus4.png" alt="">
-            </figure>
+          </div> <!-- /.container -->
+        </div>
+      </div>
+    </div>
+    <!--<header class="jumbotron" role="banner">-->
 
-          </div> <!-- /.col-md-5 -->
-          
-        </div> <!-- /.row -->
-        
-      </div> <!-- /.container -->
+      <!--<div class="container">-->
 
-    </header> <!-- /.jumbotron -->
+        <!--<div class="row">-->
+
+          <!--<div class="col-md-7 pull-right">-->
+
+            <!--&lt;!&ndash; Logo &ndash;&gt;-->
+            <!--<figure class="text-center">-->
+              <!--<a href="./index.html">-->
+                <!--<img class="img-logo" src="images/appicon.png" alt="">-->
+              <!--</a>-->
+            <!--</figure> &lt;!&ndash; /.text-center &ndash;&gt;-->
+
+            <!--&lt;!&ndash; Title &ndash;&gt;-->
+            <!--<h1 >تطبيق أفـِدْ</h1>-->
+
+            <!--&lt;!&ndash; Sub title &ndash;&gt;-->
+            <!--<p>هنا نساعد بعضنا البعض، في المذاكرة وحل الواجبات المنزلية.</p>-->
+
+            <!--&lt;!&ndash; Button &ndash;&gt;-->
+            <!--<p class="btn-app-store">-->
+              <!--<a class="btn btn-danger btn-lg" href="http://www.alecsoapps.com/site/store/education/500-">-->
+                <!--<img src="images/alecso.png" alt="">-->
+              <!--</a>-->
+            <!--</p> &lt;!&ndash; /.btn-app-store &ndash;&gt;-->
+
+          <!--</div> &lt;!&ndash; /.col-md-7 &ndash;&gt;-->
+
+          <!--<div class="col-md-5">-->
+
+            <!--&lt;!&ndash; Images showcase &ndash;&gt;-->
+            <!--<figure>-->
+              <!--<img class="img-iPhone" src="images/nexus4.png" alt="">-->
+            <!--</figure>-->
+
+          <!--</div> &lt;!&ndash; /.col-md-5 &ndash;&gt;-->
+
+        <!--</div> &lt;!&ndash; /.row &ndash;&gt;-->
+
+      <!--</div> &lt;!&ndash; /.container &ndash;&gt;-->
+
+    <!--</header> &lt;!&ndash; /.jumbotron &ndash;&gt;-->
 
 
 
@@ -362,10 +415,77 @@
       </div> <!-- /.container -->
 
     </footer> <!-- /.footer-section -->
-
-    <!-- Placed at the end of the document so the pages load faster -->
     <script src="javascript/vendor/jquery-2.1.0.min.js"></script>
     <script src="javascript/bootstrap.min.js"></script>
     <script src="javascript/assets/application.js"></script>
+    <script>
+      //jQuery is required to run this code
+      $( document ).ready(function() {
+
+        scaleVideoContainer();
+
+        initBannerVideoSize('.video-container .poster img');
+        initBannerVideoSize('.video-container .filter');
+        initBannerVideoSize('.video-container video');
+
+        $(window).on('resize', function() {
+          scaleVideoContainer();
+          scaleBannerVideoSize('.video-container .poster img');
+          scaleBannerVideoSize('.video-container .filter');
+          scaleBannerVideoSize('.video-container video');
+        });
+
+      });
+
+      function scaleVideoContainer() {
+
+        var height = $(window).height() + 5;
+        var unitHeight = parseInt(height) + 'px';
+        $('.homepage-hero-module').css('height','100%');
+//        $('.homepage-hero-module').css('height',unitHeight);
+
+      }
+
+      function initBannerVideoSize(element){
+
+        $(element).each(function(){
+//          $(this).data('height', $(this).height());
+          $(this).data('height', '100%');
+//          $(this).data('width', $(this).width());
+          $(this).data('width', '100%');
+        });
+
+        scaleBannerVideoSize(element);
+
+      }
+
+      function scaleBannerVideoSize(element){
+
+        var windowWidth = $(window).width(),
+                windowHeight = $(window).height() + 5,
+                videoWidth,
+                videoHeight;
+
+        console.log(windowHeight);
+
+        $(element).each(function(){
+          var videoAspectRatio = $(this).data('height')/$(this).data('width');
+
+          $(this).width(windowWidth);
+
+          if(windowWidth < 500){
+            videoHeight = windowHeight;
+            videoWidth = videoHeight / videoAspectRatio;
+//            $(this).css({'margin-top' : 0, 'margin-left' : -(videoWidth - windowWidth) / 2 + 'px'});
+
+            $(this).width(videoWidth).height(videoHeight);
+          }
+
+          $('.homepage-hero-module .video-container video').addClass('fadeIn animated');
+
+        });
+      }
+    </script>
+    <!-- Placed at the end of the document so the pages load faster -->
   </body>
 </html>
