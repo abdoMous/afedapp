@@ -6350,3 +6350,8 @@ tbody.collapse.in {
 .sign-in-up-content .sign-in-up-links .sep {
   margin: 0 4px;
 }
+
+.scontent{
+  background: #dff4ef url("../images/school.png") 0 0;
+  padding: 20px 50px
+}
